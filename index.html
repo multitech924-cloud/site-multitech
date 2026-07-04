@@ -1,60 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi Tech Soluções Tecnológicas</title>
-    
+    <title>Multi Tech - Soluções em Climatização</title>
     <style>
         body {
-            background-color: #f9f9f9; /* Cinza claro no fundo */
-            font-family: sans-serif;   /* Letra moderna e limpa */
-            text-align: center;        /* Centraliza os elementos na tela */
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            text-align: center;
             padding: 50px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin: 0 auto;
         }
         h1 {
-            color: #0f2d59; /* Azul escuro da sua logo */
-            font-size: 2.5rem;
-            margin-bottom: 20px;
+            color: #0f2d59;
+            font-size: 2.5em;
+            margin-bottom: 10px;
         }
         p {
-            color: #0f2d59; /* Azul escuro no texto explicativo */
-            font-size: 1.2rem;
-            margin-bottom: 40px;
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
         }
-        a {
-            background-color: #e8731b; /* Laranja vibrante da sua logo */
-            color: #ffffff;            /* Texto do botão em branco */
-            padding: 15px 30px;        /* Espaçamento interno do botão */
-            font-size: 1.1rem;
+        .botao {
+            display: inline-block;
+            background-color: #ff7a00;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
             font-weight: bold;
-            text-decoration: none;     /* Remove o sublinhado de link */
-            display: inline-block;     
-            border-radius: 5px;        /* Arredonda os cantos do botão */
+            font-size: 1.2em;
+            margin-top: 30px;
             transition: background 0.3s;
         }
-        a:hover {
-            background-color: #cf6215; /* Escurece o laranja quando passa o mouse */
+        .botao:hover {
+            background-color: #e06b00;
+        }
+        .contato {
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            color: #0f2d59;
+            font-weight: bold;
+        }
+        .contato p {
+            margin: 10px 0;
+            color: #0f2d59;
         }
     </style>
 </head>
 <body>
 
-    <h1>Multi Tech Soluções Tecnológicas</h1>
-    <p>Soluções rápidas e definitivas em manutenção predial e climatização comercial.</p>
+    <div class="container">
+        <h1>Multi Tech</h1>
+        <p>Soluções inteligentes em climatização, instalação e manutenção de ar-condicionado. Garantimos o conforto térmico do seu ambiente com rapidez e compromisso.</p>
+        
+        <!-- Botão com o novo número atualizado -->
+        <a href="https://wa.me/5549988469995" class="botao">Solicitar Orçamento Grátis</a>
 
-    <a href="https://wa.me/5549988469995">Solicitar Orçamento Grátis</a>
-
-    <script>
-        // Seleciona o botão de link <a>
-        const botao = document.querySelector('a');
-
-        // Escuta o clique do cliente
-        botao.addEventListener('click', function(event) {
-            // Exibe a mensagem na tela antes de seguir para o link
-            alert('Obrigado pelo contato! A Multi Tech responderá em breve.');
-        });
-    </script>
+        <!-- Nova Seção de Informações de Contato -->
+        <div class="contato">
+            <p>📧 E-mail: multitech924@gmail.com</p>
+            <p>⏰ Horário de Atendimento: Segunda a Sexta, das 08h às 18h</p>
+        </div>
+    </div>
 
 </body>
 </html>
